@@ -1,11 +1,11 @@
-'''def str_concatenate():
+def str_concatenate():
     str1 = "Fill"
     str2 = " up Complaint"
     print(str1 + str2)
 
-str_concatenate()'''
+str_concatenate()
 
-''' def mul(a,b):
+def mul(a,b):
     print(a*b)
 mul(9,6)
 
@@ -25,34 +25,34 @@ def mult(a,b):
 
 result = mult(2,'Vaib ')
 print(result)
-'''
+
 
 # Function is Addition of Number
-'''def add(a):
+def add(a):
     print(a+1)
     print(a-1)
     print(a*3)
 add(3)
 add(14)
-add(6)'''
+add(6)
 
-'''def add(a,b):
+def add(a,b):
     return (a+b)
 def square(c):
     return (c*c)
 
 result = square(add(4,5))
-print(result)'''
-'''
-#Modules
+print(result)
+
+# Modules
 import math
 print(math.pi)
 
 from math import *
 print(pi)
-'''
 
-'''
+
+
 # Recursion
 
 import sys
@@ -67,10 +67,10 @@ def python():
     python()
 
 python()
-'''
 
 
-'''
+
+
 #Factorial
 # 0! = 1
 # 1! = 1
@@ -87,8 +87,6 @@ def factorial(n):
 
 result = factorial(7)
 print(result)
-'''
-'''
 n=1 # global variable
 
 def fun():
@@ -99,8 +97,6 @@ def fun():
 fun()
 
 print('out',n) # output number in global variable
-'''
-
 n = int(input("Enter a number: "))
 
 def fact(n):
