@@ -5,7 +5,7 @@
 #match pattern
 
 # match(pattern,string,flags)
-'''import re
+import re
 pattern = "banana"
 if re.match(pattern,"banbananalereesard"):
     print("True")
@@ -72,7 +72,7 @@ print(re.findall(pattern,string,flags=0))
 import re
 string = "From bobby.stream@mailing.cop"
 pattern = "^From (\S+@\S+)"
-print(re.findall(pattern,string))'''
+print(re.findall(pattern,string))
 
 # Characters and Character sequence
 
