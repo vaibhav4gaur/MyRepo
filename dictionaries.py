@@ -1,4 +1,4 @@
-'''dictionary = {'a':'airplane','b':'bazball','c':'commomwealth-game'}
+dictionary = {'a':'airplane','b':'bazball','c':'commomwealth-game'}
 dictionary['e'] = 'apple'
 print(dictionary.get('e', "'g' not found"))
 
@@ -9,13 +9,13 @@ for i in range(11):
 
       x.append(i ** 2)
 
-print(x)'''
+print(x)
 
 # type of collection
 # unordered
 # unique elements
 # {}
-'''
+
 set1 = {1,2,3,4,5}
 set1.remove(1)
 print (set1)
@@ -29,7 +29,7 @@ set2 = {1,2,0}
 print(set2.issubset(set1))
 
 b = 'vaibhav GaUr'
- print(b.upper())
+print(b.upper())
 print(b.lower())
 
  c = '10'
@@ -62,4 +62,3 @@ tup0 = ('SadaShivya',122,988)
 tup1 = ('Sarvashweya',45,91)
 tup2 = ('Mrutunjuya',1.11)
 print(tup0 + tup1 + tup2)
-'''
